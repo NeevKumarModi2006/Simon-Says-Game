@@ -1,0 +1,108 @@
+body {
+  user-select: none;
+    -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none;    /* Firefox */
+  -ms-user-select: none;     /* IE/Edge */
+  text-align: center;
+  background-color: black;
+}
+
+h1{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  3%;
+  color: #fafaf9;
+    text-shadow:
+  0 0 4px white,
+  0 0 8px rgb(4, 1, 1),
+  0 0 16px rgb(255, 0, 179),
+  0 0 20px rgb(92, 200, 107);
+}
+
+.container {
+  display: block;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+  transition: transform 300ms;
+}
+
+.game-over {
+  background-color: #E97451;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: rgb(32, 230, 32);
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed{
+  opacity: 0.8;
+  box-shadow: 
+  0 0 4px white,
+  0 0 8px rgb(4, 1, 1),
+  0 0 16px rgb(255, 0, 179),
+  0 0 20px rgb(92, 200, 107);
+}
+
+.btn:hover{
+  transform: scale(1.05);
+}
+.btn:active{
+  transform: scale(0.95);
+  box-shadow: 
+  0 0 4px white,
+  0 0 8px rgb(4, 1, 1),
+  0 0 16px rgb(255, 0, 179),
+  0 0 20px rgb(92, 200, 107);
+}
+
+footer{
+  color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+  margin-top: 50px;
+  opacity: 0.8;
+  font-size: 0.9rem;
+  margin-bottom: 0%;
+}
+@media (max-width: 1200px) {
+h1{
+  font-size: 30px;
+}
+}
+
+@media (max-width: 650px) {
+.row{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  font-size: 1rem;
+}
+.btn{
+  height: 100px;
+  width: 100px;
+}
+}
