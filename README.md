@@ -6,7 +6,7 @@ A simple, mobile-friendly Simon memory game.
 
 ## Play online
 
-[Click here to play!]([https://yourusername.github.io/simon-game/](https://neevkumarmodi2006.github.io/Simon-Says-Game/))
+[Click here to play!](https://neevkumarmodi2006.github.io/Simon-Says-Game/)
 
 ## Screenshots
 
